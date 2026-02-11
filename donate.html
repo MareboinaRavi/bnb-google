@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Support IGreenArmy through donations and help drive cleaning, plantation, and environmental awareness initiatives in India."
+    />
+    <title>Donate | IGreenArmy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="IGreenArmy Home">IGreenArmy</a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#events">Events</a></li>
+          <li><a href="index.html#join">Volunteer</a></li>
+          <li><a href="donate.html" class="btn btn-sm">Donate</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="section-padding" id="main-content">
+      <section class="container donate-layout">
+        <article class="card donate-info">
+          <p class="eyebrow">Your support creates measurable impact</p>
+          <h1>Make a Donation</h1>
+          <p>
+            Every contribution helps us run public cleanup drives, distribute plantation
+            materials, and conduct environmental awareness sessions.
+          </p>
+
+          <h2>Why donate to IGreenArmy?</h2>
+          <ul class="reasons-list">
+            <li>Fund cleaning tools and supplies for public places.</li>
+            <li>Support large-scale plantation campaigns.</li>
+            <li>Enable youth-led sustainability awareness events.</li>
+            <li>Build cleaner and greener communities across India.</li>
+          </ul>
+
+          <div class="impact-box">
+            <p><strong>₹100</strong> = cleaning supplies</p>
+            <p><strong>₹500</strong> = plantation drive support</p>
+            <p><strong>₹1000</strong> = full awareness kit for one event</p>
+          </div>
+        </article>
+
+        <form class="card donate-form" id="donation-form" novalidate>
+          <h2>Choose donation amount</h2>
+          <div class="amount-buttons" role="group" aria-label="Preset donation amounts">
+            <button class="amount-btn" type="button" data-amount="100">₹100</button>
+            <button class="amount-btn" type="button" data-amount="500">₹500</button>
+            <button class="amount-btn" type="button" data-amount="1000">₹1000</button>
+            <button class="amount-btn" type="button" data-amount="custom">Custom</button>
+          </div>
+
+          <label>
+            Custom Amount (₹)
+            <input
+              type="number"
+              id="custom-amount"
+              name="amount"
+              min="1"
+              placeholder="Enter amount"
+              inputmode="numeric"
+              required
+            />
+          </label>
+
+          <h3>Select Payment Method</h3>
+          <div class="payment-options" role="radiogroup" aria-label="Payment methods">
+            <label><input type="radio" name="payment" value="UPI" required /> UPI</label>
+            <label><input type="radio" name="payment" value="Card" required /> Card</label>
+            <label>
+              <input type="radio" name="payment" value="Net Banking" required /> Net Banking
+            </label>
+          </div>
+
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" autocomplete="tel" required />
+          </label>
+
+          <button class="btn" type="submit">Confirm Donation</button>
+          <p id="donation-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>IGreenArmy</h3>
+          <p>Email: hello@igreenarmy.org</p>
+          <p>Address: 24 Green Avenue, New Delhi, India</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#events">Events</a></li>
+            <li><a href="index.html#join">Volunteer</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> IGreenArmy. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

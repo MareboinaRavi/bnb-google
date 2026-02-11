@@ -1,0 +1,11 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="640" height="420" rx="18" fill="#ECFBF2"/>
+<rect x="70" y="250" width="500" height="90" rx="16" fill="#D7F6E2"/>
+<rect x="120" y="180" width="18" height="86" rx="8" fill="#0F6D33"/>
+<circle cx="129" cy="160" r="28" fill="#2FA34D"/>
+<rect x="250" y="170" width="18" height="96" rx="8" fill="#0F6D33"/>
+<circle cx="259" cy="148" r="32" fill="#33A852"/>
+<rect x="380" y="190" width="18" height="76" rx="8" fill="#0F6D33"/>
+<circle cx="389" cy="172" r="26" fill="#39AF5C"/>
+<text x="48" y="70" fill="#0F6D33" font-size="36" font-family="Poppins, Arial" font-weight="700">Plantation Campaign</text>
+</svg>

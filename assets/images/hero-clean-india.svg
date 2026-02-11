@@ -1,0 +1,16 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="32" fill="#E7F9EE"/>
+  <circle cx="760" cy="140" r="70" fill="#BDEFCB"/>
+  <rect x="90" y="340" width="720" height="180" rx="24" fill="#CFF3DB"/>
+  <path d="M130 330C220 240 350 240 450 330" stroke="#1F8F45" stroke-width="14" stroke-linecap="round"/>
+  <path d="M450 330C550 250 670 250 760 330" stroke="#1F8F45" stroke-width="14" stroke-linecap="round"/>
+  <rect x="180" y="310" width="60" height="130" rx="8" fill="#1F8F45"/>
+  <circle cx="210" cy="280" r="34" fill="#34A853"/>
+  <rect x="320" y="290" width="16" height="90" rx="8" fill="#0F6D33"/>
+  <circle cx="328" cy="270" r="24" fill="#39A95A"/>
+  <rect x="540" y="300" width="16" height="80" rx="8" fill="#0F6D33"/>
+  <circle cx="548" cy="280" r="24" fill="#39A95A"/>
+  <rect x="620" y="310" width="18" height="100" rx="8" fill="#0F6D33"/>
+  <circle cx="629" cy="292" r="28" fill="#39A95A"/>
+  <text x="80" y="110" fill="#0F6D33" font-family="Poppins, Arial" font-size="48" font-weight="700">Clean India. Green India.</text>
+</svg>

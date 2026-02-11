@@ -1,0 +1,10 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="640" height="420" rx="18" fill="#E9FAEF"/>
+<rect x="120" y="110" width="400" height="220" rx="18" fill="#FFFFFF" stroke="#C4E8CF" stroke-width="6"/>
+<rect x="180" y="170" width="280" height="20" rx="8" fill="#D4F4DE"/>
+<rect x="180" y="210" width="220" height="20" rx="8" fill="#D4F4DE"/>
+<circle cx="320" cy="286" r="26" fill="#1F8F45"/>
+<path d="M320 266V296" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<circle cx="320" cy="306" r="4" fill="#fff"/>
+<text x="116" y="80" fill="#0F6D33" font-size="34" font-family="Poppins, Arial" font-weight="700">Awareness Event</text>
+</svg>
