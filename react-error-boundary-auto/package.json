@@ -1,0 +1,30 @@
+{
+  "name": "react-error-boundary-auto",
+  "version": "0.1.0",
+  "description": "Automatic error boundary wrappers for React routes and components",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "react",
+    "error-boundary",
+    "routing",
+    "resilience"
+  ],
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test ./test/package.test.mjs"
+  }
+}
